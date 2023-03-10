@@ -1,83 +1,36 @@
-body {
-    background-color: powderblue;
-}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site do Macaco</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ul class="topnav">
+        <li><a href="home">Inicio</a></li>
+        <li><a href="home">Contato</a></li>
+        <li><a href="home">Sobre</a></li>
+        <input type="text" placeholder="Pesquisar">
+        <a href="#"><img class="lupa" src="media/image/lupa (1).png" alt="."></a>
+      </ul>
+    
+    <div>
+        <h1>Bem vindos</h1>
+        <h2>Ao site do</h2>
+        <h3>Macaco entediado</h3>
+        <p>Macaco entediado diz: Olá pessoal</p>
+        <img src="media/image/macaco.jpg" alt="macaco lindo">
+    </div>
 
-img {
-    height: 300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+<div class="navbar">
+    <a href="#"><img class="social" src="media/image/youtube.png" alt="Link do Youtube"></a>
+    <a href="#"><img class="social" src="media/image/instagram.png" alt="Link do Instagram"></a>
+    <a href="#"><img class="social" src="media/image/facebook.png" alt="Link do Facebook"></a>
+    <a href="#"><img class="social" src="media/image/twitter.png" alt="Link do Twitter"></a>
 
-div {
-    align-content: center;
-    text-align: center;
-}
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(209, 168, 243);
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: blue;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: blueviolet;
-}
-
-.topnav input[type=text]{
-    float: right;
-    padding: 6px;
-    border: none;
-    margin-top: 8px;
-    margin-right: 16px;
-    font-size: 17px;
-}
-
-.social{
-    width: 50px;
-    height: 50px;
-}
-
-.navbar{
-    background-color: rgb(162, 223, 100);
-    overflow: hidden;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-.navbar a {
-    float: left;
-    padding: 12px;
-    color: aquamarine;
-    text-decoration: none;
-    width: 23%;
-    text-align: center;
-}
-
-.navbar a:hover{
-    background-color: beige;
-}
-
-.lupa{
-    height: 17px;
-    float: right;
-    padding: 6px;
-    border: none;
-    margin-top: 8px;
-    margin-right: 16px;
-}
+</div>
+</body>
+</html>
