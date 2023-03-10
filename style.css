@@ -72,3 +72,12 @@ li a:hover {
 .navbar a:hover{
     background-color: beige;
 }
+
+.lupa{
+    height: 17px;
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+}
